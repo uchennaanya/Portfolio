@@ -25,4 +25,3 @@ targets.forEach(function (target) {
   target.classList.add("opacity-0");
   observer.observe(target);
 });
-

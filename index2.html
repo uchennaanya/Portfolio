@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sec doc</title>
+    <link rel="stylesheet" href="./assets/styles/output.css" />
+  </head>
+  <body>
+    <header
+      class="flex justify-between items-center px-8 py-4 bg-white border-b-2 border-red-500 fixed w-screen z-20"
+    >
+      <a href="#" class="z-20">
+        <!-- <img src="#" alt="logos" /> -->
+        <h1 class="">U/A</h1>
+      </a>
+      <nav
+        class="hidden md:block left-0 md:mt-0 w-full bg-gray-800 md:bg-white absolute py-2 md:py-0 md:relative mt-48"
+        id="dropdownNavbar"
+      >
+        <ul
+          class="flex items-center justify-start md:justify-end flex-col md:flex-row gap-x-0 md:gap-x-4 text-white md:text-black border-b-2 md:border-0 pb-2 md:pb-0 js-show-on-scroll"
+        >
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img
+        src="./assets/img/toggle.png"
+        alt="menu"
+        class="cursor-pointer block md:hidden"
+        id="dropdownNavbarLink"
+      />
+    </header>
+    <header
+      style="height: 80vh"
+      class="flex items-center justify-center bg-gray-800"
+    >
+      <h1 class="text-white text-2xl sm:text-6xl font-bold js-show-on-scroll">
+        MRSoft Int'l
+      </h1>
+    </header>
+    <hr />
+    <section id="services" class="m-8 pt-20">
+      <h2 class="text-4xl font-semibold pb-8">Services</h2>
+      <div class="flex flex-wrap md:flex-nowrap gap-x-4">
+        <div
+          class="p-4 bg-gray-200 mb-4 md:mb-0 transition duration-500 ease-in-out hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-white cursor-pointer hover:z-10 shadow-2xl rounded-lg js-show-on-scroll"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+          obcaecati officiis perferendis? Alias praesentium rem quis delectus
+          impedit nemo provident dolore nobis ex sequi, tempora molestias et!
+          Minus a dolor eaque, praesentium dolorem atque illum perferendis magni
+          aliquid! Nobis nam in harum vero quam accusamus ea quas ab adipisci.
+        </div>
+        <div
+          class="p-4 bg-gray-200 mb-4 md:mb-0 transition duration-500 ease-in-out hover:z-10 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-white cursor-pointer shadow-2xl rounded-lg js-show-on-scroll"
+        >
+          Laborum autem nemo perspiciatis totam blanditiis voluptas ratione
+          obcaecati deleniti iure sit. Minus eos doloremque blanditiis veniam,
+          unde accusantium consectetur nobis dolores? Minima iste veritatis illo
+          aliquam aspernatur architecto quo doloremque corrupti excepturi earum
+          et delectus, impedit odio ut sunt modi fuga esse distinctio, rem
+          eligendi unde? Ullam, fugiat tempore!
+        </div>
+        <div
+          class="p-4 bg-gray-200 rounded-lg mb-4 md:mb-0 transition duration-500 ease-in-out hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-white cursor-pointer hover:z-10 shadow-2xl js-show-on-scroll"
+        >
+          Tempore quibusdam eveniet, hic aliquid ea iure, illum a nostrum saepe
+          vero blanditiis doloribus dolorum nisi iste fugiat voluptatibus
+          sapiente totam numquam! Corporis fugit rerum, assumenda vitae sunt
+          earum, dolores veniam dolorem commodi vero enim ducimus? Maxime
+          molestias natus nemo explicabo quod, beatae minus qui necessitatibus
+          dolores, iure adipisci veniam?
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="about" class="m-8 pt-20">
+      <h2 class="text-4xl font-semibold pb-8">About us</h2>
+      <div class="flex gap-x-4 flex-wrap md:flex-nowrap">
+        <div class="w-screen md:w-screen h-80 shadow-2xl js-show-on-scroll">
+          <img
+            src="./assets/img/about.jpg"
+            alt="about"
+            class="w-screen md:w-full object-cover h-80 rounded-lg"
+          />
+        </div>
+        <hr />
+        <div class="w-full js-show-on-scroll">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, at
+            reiciendis? Sit atque maiores esse officia earum. Velit molestias
+            nobis maiores. At tenetur eum enim eaque cum, adipisci nemo sit
+            placeat nisi ab animi ipsam temporibus saepe laudantium pariatur
+            dolorum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section
+      id="contact"
+      class="flex flex-wrap md:flex-nowrap justify-evenly gap-8 mx-2 md:mx-8 mt-20"
+    >
+      <div class="js-show-on-scroll">
+        <h2 class="text-4xl font-semibold pb-8">Get in touch</h2>
+        <p>
+          Quam nunc nunc eu sed. Sed rhoncus quis <br />
+          ultricies ac pellentesque.
+        </p>
+      </div>
+      <div
+        class="grid md:grid-flow-col grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4"
+      >
+        <div
+          class="bg-gray-200 m-4 py-8 pl-8 pr-40 rounded-lg shadow-xl hover:cursor-pointer transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 js-show-on-scroll"
+        >
+          <h3 class="text-xl font-medium pb-4">Collaborate</h3>
+          <p class="text-blue-800 pb-2">collaborate@example.com</p>
+          <p>+1 (555) 905-2345</p>
+        </div>
+        <div
+          class="bg-gray-200 m-4 py-8 pl-8 pr-40 rounded-lg shadow-xl hover:cursor-pointer transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 js-show-on-scroll"
+        >
+          <h3 class="text-xl font-medium pb-4">Press</h3>
+          <p class="text-blue-800 pb-2">press@example.com</p>
+          <p>+1 (555) 905-3456</p>
+        </div>
+        <div
+          class="bg-gray-200 m-4 py-8 pl-8 pr-40 rounded-lg shadow-xl hover:cursor-pointer transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 js-show-on-scroll"
+        >
+          <h3 class="text-xl font-medium pb-4">Join our team</h3>
+          <p class="text-blue-800 pb-2">career@example.com</p>
+          <p>+1 (555) 905-4567</p>
+        </div>
+        <div
+          class="bg-gray-200 m-4 py-8 pl-8 pr-40 rounded-lg shadow-xl hover:cursor-pointer transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 js-show-on-scroll"
+        >
+          <h3 class="text-xl font-medium pb-4">Say hello</h3>
+          <p class="text-blue-800 pb-2">hello@example.com</p>
+          <p>+1 (555) 905-5678</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <footer class="p-8 mt-8 bg-gray-800 text-center text-white">
+      <p>&copy;&nbsp;All right reserve</p>
+    </footer>
+  </body>
+  <script src="./assets/js/js.js"></script>
+</html>

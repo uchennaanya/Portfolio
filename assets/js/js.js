@@ -5,11 +5,8 @@ dropdownButton.addEventListener("click", () => {
   dropdownMenu.classList.toggle("hidden");
 });
 
-
 const callback = function (entries) {
   entries.forEach((entry) => {
-    console.log(entry);
-
     if (entry.isIntersecting) {
       entry.target.classList.add("animate-fadeIn");
     } else {

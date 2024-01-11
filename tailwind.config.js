@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  // fontFamily: {
-  //   Poppins: ['Poppins, sans-serif'],
-  // },
+  fontFamily: {
+    Times: ["Times New Roman"],
+  },
   plugins: [],
-}
+};

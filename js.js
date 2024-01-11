@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const dropdownMenu = document.getElementById('dropdownNavbar');
   
     dropdownButton.addEventListener('click', () => {
-        console.log("Hey")
       dropdownMenu.classList.toggle('hidden');
     });
   
